@@ -25,6 +25,7 @@ import static com.example.android.miwok.R.id.numbers;
 
 /**
  * Classe principal do software.
+ * Teste do branch 1.0.
  */
 public class MainActivity extends AppCompatActivity {
 
