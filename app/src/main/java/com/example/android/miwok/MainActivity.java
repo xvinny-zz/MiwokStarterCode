@@ -23,6 +23,9 @@ import android.widget.TextView;
 
 import static com.example.android.miwok.R.id.numbers;
 
+/**
+ * Classe principal do software.
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
