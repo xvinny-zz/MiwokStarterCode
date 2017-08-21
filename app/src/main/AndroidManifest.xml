@@ -30,13 +30,27 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".NumbersActivity" android:label="@string/numbers_activity_label">
+        <activity android:name=".NumbersActivity"
+                  android:label="@string/numbers_activity_label">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.miwok.MainActivity" />
         </activity>
         <activity android:name=".PhrasesActivity" android:label="@string/phrases_activity_label">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.miwok.MainActivity" />
         </activity>
         <activity android:name=".FamilyActivity" android:label="@string/family_activity_label">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.miwok.MainActivity" />
         </activity>
         <activity android:name=".ColorsActivity" android:label="@string/colors_activity_label">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.miwok.MainActivity" />
         </activity>
     </application>
 
